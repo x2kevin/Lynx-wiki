@@ -11,20 +11,20 @@ body{
 	margin-bottom: 0px;
 }
 #content{
-	position: inherit !important;
+	background: none !important;
+	border: none !important;
 	margin: auto !important;
 	padding: 0 !important;
-	border: none !important;
-	background: none !important;
+	position: inherit !important;
 }
 .mw-content-ltr{
 	overflow: hidden;
 }
 #mp-2012-banner{
-	margin: 0 10px 0 10px !important;
-	height: 65px;
-	border-bottom: 1px solid #aaa;
 	background: white;
+	border-bottom: 1px solid #aaa;
+	height: 65px;
+	margin: 0 10px 0 10px !important;
 }
 	#mp-2012-banner a{
 		color: #000;
@@ -49,10 +49,10 @@ body{
 	display: none;
 }
 #mp-2012-banner-intro{
-	width: 150px;
-	margin: 0;
 	float: left;
+	margin: 0;
 	text-align: left;
+	width: 150px;
 }
 #mp-2012-banner-intro p{
 	display: none;
@@ -67,11 +67,11 @@ body{
 	margin-top: 10px;
 }
 .mp-2012-column-left-block{
-	margin-left: 10px;
-	margin-bottom: 10px;
-	padding: 10px;
 	border: 1px solid #EEE;
 	box-shadow: 0px 5px 15px #CCCCCC;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	padding: 10px;
 }
 #mp-2012-column-left h2{
 	color: #000;
@@ -89,28 +89,28 @@ body{
 	margin-top: auto;
 }
 #mp-2012-column-right-block-a{
+	background: none;
 	border: none;
 	box-shadow: none;
-	background: none;
 }
 .mp-2012-column-right-subblock{
 	border: 1px solid #EEE;
 	box-shadow: 0px 5px 15px #CCCCCC;
-	padding: 10px;
 	margin-right: 10px;
 	margin-top: 12px;
+	padding: 10px;
 }
 #mp-2012-column-right-block-b{
+	background: none !important;
 	border: none;
 	box-shadow: none;
-	background: none !important;
 }
 #mp-2012-sisters{
 	border-top: 3px double #aaa;
 }
 #footer{
-	border-top: 1px solid #DB0000;
 	border-bottom: 1px solid #DB0000;
+	border-top: 1px solid #DB0000;
 }
 
 #p-logo{
@@ -135,21 +135,21 @@ body{
 		display: none !important;
 	}
 #column-one{
-	position: relative;
 	padding: 0 !important;
+	position: relative;
 
 }
 
 #p-cactions{
+	left: 514px;
 	position: absolute;
 	top: 40px;
-	left: 514px;
 	width: 180px;
 	z-index: 10;
 }
 #p-cactions li{
-	border: none;
 	background: none;
+	border: none;
 }
 li#ca-watch{
 	margin-left: 0;
@@ -167,11 +167,11 @@ div#p-cactions li a {
 	top:15px;
 }
 #p-search {
-	top: 45px;
 	left: 813px;
+	position: absolute;
+	top: 45px;
 	width: auto;
 	z-index: 15;
-	position: absolute;
 }
 #p-search h3{
 	display: none;
@@ -189,25 +189,25 @@ div#p-cactions li a {
 		margin-top: 15px;
 	}
 #p-search .pBody{
+	background:none;
 	border: none;
 	padding: 0;
-	background:none;
 }
 
 #mp-2012-links{
 	padding: 0 10px 15px 10px;
 }
 	#mp-2012-links table{
-		width: 960px;
-		padding: 10px;
 		border: 1px solid #EEE;
 		box-shadow: 0px 5px 15px #CCCCCC;
+		padding: 10px;
+		width: 960px;
 	}
 
 #firstHeading{
-	width: 970px;
 	line-height: 65px;
 	margin-top: 15px;
+	width: 970px;
 }
 #mw-content-text{
 	margin-top: 10px;
