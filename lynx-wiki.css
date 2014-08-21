@@ -1,3 +1,14 @@
+@font-face{
+	font-family: 'Fangzheng Baosong';
+	src: url('http://ly-fonts.qiniudn.com/%E6%96%B9%E6%AD%A3%E6%8A%A5%E5%AE%8B%E7%AE%80%E4%BD%93.ttf');
+}
+a{
+	color: #36b;
+}
+a:hover{
+	color: #DB0000;
+	text-decoration: none;
+}
 body{
 	background: white;
 	margin: 0 auto;
@@ -19,6 +30,11 @@ body{
 }
 .mw-content-ltr{
 	overflow: hidden;
+}
+#mp-2012 h1{
+	font-family: 'Fangzheng Baosong';
+	font-size: 250%;
+	font-weight: normal;
 }
 #mp-2012-banner{
 	background: white;
@@ -85,6 +101,9 @@ body{
 	margin: 0;
 	padding: 0;
 }
+#mp-2012-column-right{
+	margin-bottom: 50px;
+}
 #mp-2012-column-right > div {
 	margin-top: auto;
 }
@@ -107,6 +126,9 @@ body{
 }
 #mp-2012-sisters{
 	border-top: 3px double #aaa;
+}
+.mw-body a.extiw:hover {
+	color: #DB0000 !important;
 }
 #footer{
 	border-bottom: 1px solid #DB0000;
@@ -146,6 +168,7 @@ body{
 	top: 40px;
 	width: 180px;
 	z-index: 10;
+	font-size: 1.1em;
 }
 #p-cactions li{
 	background: none;
@@ -162,14 +185,31 @@ li#ca-talk{
 }
 div#p-cactions li a {
 	background-color: #FFFFFF !important;
+	color: #000000;
+}
+#p-cactions li.selected a{
+	color: brown;
+}
+#p-cactions .new a{
+	color: #000000;
 }
 #p-personal{
 	top:15px;
 }
+#p-personal li{
+	color: #000000;
+}
+
+#p-personal li a{
+	color: #000000;
+}
+	.portlet a:hover{
+		color: #DB0000 !important;
+	}
 #p-search {
-	left: 813px;
+	left: 803px;
 	position: absolute;
-	top: 45px;
+	top: 55px;
 	width: auto;
 	z-index: 15;
 }
@@ -195,14 +235,8 @@ div#p-cactions li a {
 }
 
 #mp-2012-links{
-	padding: 0 10px 15px 10px;
+	display: none;
 }
-	#mp-2012-links table{
-		border: 1px solid #EEE;
-		box-shadow: 0px 5px 15px #CCCCCC;
-		padding: 10px;
-		width: 960px;
-	}
 
 #firstHeading{
 	line-height: 65px;
@@ -210,7 +244,6 @@ div#p-cactions li a {
 	width: 970px;
 }
 #mw-content-text{
-	margin-top: 10px;
 	width: 970px;
 }
 #siteSub{
