@@ -267,16 +267,16 @@ div#p-cactions li a {
 	border: none; 
 }
 #preftoc li.selected{
-	border: none;
 	background-color: #FFFFFF;
+	border: none;
 
 }
 #preftoc > li.selected {
 	top: 0;
 }
 #preftoc li.selected a{
-	cursor: auto;
 	color: brown;
+	cursor: auto;
 }
 #preferences{
 	background-color: #FFFFFF;
@@ -288,9 +288,9 @@ div#p-cactions li a {
 }
 
 fieldset{
-	max-width: 960px;
-	margin: 0 0 15px 0;
 	border-color: #EEE;
+	margin: 0 0 15px 0;
+	max-width: 960px;
 }
 	#mw-prefsection-rendering fieldset{
 	  	box-shadow: 0 5px 10px #CCCCCC;
