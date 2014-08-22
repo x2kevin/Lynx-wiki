@@ -6,9 +6,12 @@ a{
 	color: #36b;
 }
 a:hover{
-	color: #DB0000;
+	color: #DB0000 !important;
 	text-decoration: none;
 }
+:focus{
+	outline: none;
+	}
 body{
 	background: white;
 	margin: 0 auto;
@@ -40,7 +43,7 @@ body{
 	background: white;
 	border-bottom: 1px solid #aaa;
 	height: 65px;
-	margin: 0 10px 0 10px !important;
+	margin: 15px 10px 0 10px !important;
 }
 	#mp-2012-banner a{
 		color: #000;
@@ -56,7 +59,7 @@ body{
 	}
 #mp-2012-banner > div{
 		height: 65px;
-		line-height: 65px;
+		line-height: 50px;
 	}
 #mp-2012-banner-title{
 	width: 180px;
@@ -163,12 +166,12 @@ body{
 }
 
 #p-cactions{
+	font-size: 1.1em;
 	left: 514px;
 	position: absolute;
 	top: 40px;
 	width: 180px;
 	z-index: 10;
-	font-size: 1.1em;
 }
 #p-cactions li{
 	background: none;
@@ -207,7 +210,7 @@ div#p-cactions li a {
 		color: #DB0000 !important;
 	}
 #p-search {
-	left: 803px;
+	left: 793px;
 	position: absolute;
 	top: 55px;
 	width: auto;
@@ -241,7 +244,7 @@ div#p-cactions li a {
 #firstHeading{
 	line-height: 65px;
 	margin-top: 15px;
-	width: 970px;
+	width: 960px;
 }
 #mw-content-text{
 	width: 970px;
@@ -254,4 +257,60 @@ div#p-cactions li a {
 }
 #footer{
 	width: 970px;
+}
+
+#preftoc{
+	margin-top: 10px;
+}
+#preftoc li{
+	background-color: #FFFFFF;
+	border: none; 
+}
+#preftoc li.selected{
+	border: none;
+	background-color: #FFFFFF;
+
+}
+#preftoc > li.selected {
+	top: 0;
+}
+#preftoc li.selected a{
+	cursor: auto;
+	color: brown;
+}
+#preferences{
+	background-color: #FFFFFF;
+	border: none;
+	padding: 0;
+}
+.prefsection table, .prefsection legend {
+	background-color: #FFF;
+}
+
+fieldset{
+	max-width: 960px;
+	margin: 0 0 15px 0;
+	border-color: #EEE;
+}
+	#mw-prefsection-rendering fieldset{
+	  	box-shadow: 0 5px 10px #CCCCCC;
+	  }
+
+	#mw-prefsection-echo fieldset{
+	  	box-shadow: 0 5px 10px #CCCCCC;
+	  }
+	#mw-prefsection-watchlist fieldset{
+	  	box-shadow: 0 5px 10px #CCCCCC;
+	  }
+	#mw-prefsection-rc fieldset{
+	  	box-shadow: 0 5px 10px #CCCCCC;
+	  }
+	#mw-prefsection-editing fieldset{
+	  	box-shadow: 0 5px 10px #CCCCCC;
+	  }
+	#mw-prefsection-personal fieldset{
+	  	box-shadow: 0 5px 10px #CCCCCC;
+	  }
+.mw-prefs-buttons{
+	margin: 20px;
 }
