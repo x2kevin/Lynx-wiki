@@ -42,8 +42,8 @@ body{
 #mp-2012-banner{
 	background: white;
 	border-bottom: 1px solid #aaa;
-	height: 65px;
-	margin: 15px 10px 0 10px !important;
+	height: 55px;
+	margin: 0 10px 0 10px !important;
 }
 	#mp-2012-banner a{
 		color: #000;
@@ -247,6 +247,7 @@ div#p-cactions li a {
 	width: 960px;
 }
 #mw-content-text{
+	margin-top: 20px;
 	width: 970px;
 }
 #siteSub{
