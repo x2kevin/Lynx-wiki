@@ -287,3 +287,31 @@ div#p-cactions li a {
 .prefsection table, .prefsection legend {
 	background-color: #FFF;
 }
+
+fieldset{
+	border-color: #EEE;
+	margin: 0 0 15px 0;
+	max-width: 960px;
+}
+	#mw-prefsection-rendering fieldset{
+	  	box-shadow: 0 5px 10px #CCCCCC;
+	  }
+
+	#mw-prefsection-echo fieldset{
+	  	box-shadow: 0 5px 10px #CCCCCC;
+	  }
+	#mw-prefsection-watchlist fieldset{
+	  	box-shadow: 0 5px 10px #CCCCCC;
+	  }
+	#mw-prefsection-rc fieldset{
+	  	box-shadow: 0 5px 10px #CCCCCC;
+	  }
+	#mw-prefsection-editing fieldset{
+	  	box-shadow: 0 5px 10px #CCCCCC;
+	  }
+	#mw-prefsection-personal fieldset{
+	  	box-shadow: 0 5px 10px #CCCCCC;
+	  }
+.mw-prefs-buttons{
+	margin: 20px;
+}
